@@ -150,6 +150,7 @@ public class OverwatchStats extends Application {
 
         Button clear = new Button();
         clear.setText("C");
+        clear.setPrefSize(50, 50);
         clear.setOnAction(new EventHandler<ActionEvent>() {
 
             @Override
@@ -160,6 +161,7 @@ public class OverwatchStats extends Application {
         grid.add(clear, 1, 5);
 
         Button back = new Button();
+        back.setPrefSize(50, 50);
         back.setText("B");
         back.setOnAction(new EventHandler<ActionEvent>() {
 
@@ -171,7 +173,8 @@ public class OverwatchStats extends Application {
         grid.add(back, 3, 5);
 
         Button enter = new Button();
-        enter.setPrefWidth(90);
+
+        enter.setPrefSize(170, 50);
         enter.setText("Enter");
         enter.setOnAction(new EventHandler<ActionEvent>() {
 
